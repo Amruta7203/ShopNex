@@ -58,6 +58,19 @@
   position: relative;
   right: 11.5%;
 }
+
+.newsletter .msg {
+  position: absolute;
+  margin: 0;
+  padding: 130px 100px 0 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
 .newsletter {
   /* existing styles */
 
@@ -80,3 +93,4 @@
     transform: translateY(0);
   }
 }
+
